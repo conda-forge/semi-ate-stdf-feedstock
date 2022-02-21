@@ -1,5 +1,5 @@
 {% set name = "Semi-ATE-STDF" %}
-{% set version = "0.1.18" %}
+{% set version = "0.1.23" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/Semi-ATE-STDF-{{ version }}.tar.gz
-  sha256: b1a1cd738f2ddec6f5ed6432e9a682bc158d10fdb9f7babae13cdb8e4e17fa2d
+  sha256: d1389d2ecadcdf73cfe5d322f35a9d3c02ccbb31ed9d6068ed66401a7ac75368
 
 build:
   number: 0
